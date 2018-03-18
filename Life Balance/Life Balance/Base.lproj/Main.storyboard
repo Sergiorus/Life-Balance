@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="shb-Ei-3DA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Колесо баланса-->
+        <scene sceneID="Oa3-cH-euZ">
+            <objects>
+                <viewController id="CTR-Ya-t7s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YbC-ZH-fHi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dl5-QW-zCK"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Колесо баланса" id="AVq-6r-f7y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ewK-hb-Osa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="-314"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="MB3-ky-HJX">
+            <objects>
+                <tableViewController id="ych-hc-8uF" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9Lk-3i-2B5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="X91-8h-nr3">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X91-8h-nr3" id="MrN-lf-IXS">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ych-hc-8uF" id="Qzn-jY-Vtk"/>
+                            <outlet property="delegate" destination="ych-hc-8uF" id="lfD-We-fcy"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Список целей" id="iyu-2G-dXv"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="yc0-Eq-bRN"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6rm-Py-DjI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="482"/>
+        </scene>
+        <!--Самодиагностика-->
+        <scene sceneID="l1I-hB-sTz">
+            <objects>
+                <viewController id="RXx-p4-cgn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P7L-yC-hr8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="tlg-R6-Nl8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Самодиагностика" id="aYB-gw-TQG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zVj-eP-d19" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="-1069"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="c1S-wD-M6U">
+            <objects>
+                <tabBarController id="shb-Ei-3DA" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="x1Q-jC-BFU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RXx-p4-cgn" kind="relationship" relationship="viewControllers" id="Wox-po-R5h"/>
+                        <segue destination="CTR-Ya-t7s" kind="relationship" relationship="viewControllers" id="AqG-ME-h5E"/>
+                        <segue destination="ych-hc-8uF" kind="relationship" relationship="viewControllers" id="xFB-BJ-tO9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lZY-Nh-mBb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-263" y="-314"/>
+        </scene>
+    </scenes>
+</document>
