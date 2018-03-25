@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDD3A67C205D8EA90035383D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3A67B205D8EA90035383D /* AppDelegate.swift */; };
-		EDD3A67E205D8EA90035383D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3A67D205D8EA90035383D /* ViewController.swift */; };
-		EDD3A681205D8EA90035383D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD3A67F205D8EA90035383D /* Main.storyboard */; };
-		EDD3A684205D8EA90035383D /* Life_Balance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDD3A682205D8EA90035383D /* Life_Balance.xcdatamodeld */; };
-		EDD3A686205D8EA90035383D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD3A685205D8EA90035383D /* Assets.xcassets */; };
-		EDD3A689205D8EA90035383D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD3A687205D8EA90035383D /* LaunchScreen.storyboard */; };
-		EDD3A694205D8EA90035383D /* Life_BalanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3A693205D8EA90035383D /* Life_BalanceTests.swift */; };
-		EDD3A69F205D8EA90035383D /* Life_BalanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3A69E205D8EA90035383D /* Life_BalanceUITests.swift */; };
-		EDDE5F87205E843C00DCE7D6 /* LifeParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDE5F86205E843C00DCE7D6 /* LifeParts.swift */; };
+		ED40338020676FC4006CEBE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40337F20676FC4006CEBE7 /* AppDelegate.swift */; };
+		ED40338220676FC5006CEBE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40338120676FC4006CEBE7 /* ViewController.swift */; };
+		ED40338520676FC6006CEBE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED40338320676FC6006CEBE7 /* Main.storyboard */; };
+		ED40338820676FE0006CEBE7 /* Life_Balance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED40338620676FD7006CEBE7 /* Life_Balance.xcdatamodeld */; };
+		ED40338A20676FE5006CEBE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED40338920676FE4006CEBE7 /* Assets.xcassets */; };
+		ED40338D20676FE7006CEBE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED40338B20676FE7006CEBE7 /* LaunchScreen.storyboard */; };
+		ED40339820676FF2006CEBE7 /* Life_BalanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40339720676FF2006CEBE7 /* Life_BalanceTests.swift */; };
+		ED4033A320676FF6006CEBE7 /* Life_BalanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4033A220676FF6006CEBE7 /* Life_BalanceUITests.swift */; };
+		ED4033B120678767006CEBE7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4033B020678767006CEBE7 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EDD3A690205D8EA90035383D /* PBXContainerItemProxy */ = {
+		ED40339420676FF0006CEBE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDD3A670205D8EA80035383D /* Project object */;
+			containerPortal = ED40337420676FA3006CEBE7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDD3A677205D8EA80035383D;
+			remoteGlobalIDString = ED40337B20676FBA006CEBE7;
 			remoteInfo = "Life Balance";
 		};
-		EDD3A69B205D8EA90035383D /* PBXContainerItemProxy */ = {
+		ED40339F20676FF4006CEBE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDD3A670205D8EA80035383D /* Project object */;
+			containerPortal = ED40337420676FA3006CEBE7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDD3A677205D8EA80035383D;
+			remoteGlobalIDString = ED40337B20676FBA006CEBE7;
 			remoteInfo = "Life Balance";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EDD3A678205D8EA80035383D /* Life Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Balance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDD3A67B205D8EA90035383D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDD3A67D205D8EA90035383D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDD3A680205D8EA90035383D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDD3A683205D8EA90035383D /* Life_Balance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Life_Balance.xcdatamodel; sourceTree = "<group>"; };
-		EDD3A685205D8EA90035383D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDD3A688205D8EA90035383D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EDD3A68A205D8EA90035383D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDD3A68F205D8EA90035383D /* Life BalanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life BalanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDD3A693205D8EA90035383D /* Life_BalanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_BalanceTests.swift; sourceTree = "<group>"; };
-		EDD3A695205D8EA90035383D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDD3A69A205D8EA90035383D /* Life BalanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life BalanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDD3A69E205D8EA90035383D /* Life_BalanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_BalanceUITests.swift; sourceTree = "<group>"; };
-		EDD3A6A0205D8EA90035383D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDDE5F86205E843C00DCE7D6 /* LifeParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeParts.swift; sourceTree = "<group>"; };
+		ED40337C20676FBD006CEBE7 /* Life Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Balance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED40337F20676FC4006CEBE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED40338120676FC4006CEBE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED40338420676FC6006CEBE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED40338720676FD8006CEBE7 /* Life_Balance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Life_Balance.xcdatamodel; sourceTree = "<group>"; };
+		ED40338920676FE4006CEBE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED40338C20676FE7006CEBE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED40338E20676FEC006CEBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED40339320676FF0006CEBE7 /* Life BalanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life BalanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED40339720676FF2006CEBE7 /* Life_BalanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_BalanceTests.swift; sourceTree = "<group>"; };
+		ED40339920676FF4006CEBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED40339E20676FF4006CEBE7 /* Life BalanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life BalanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4033A220676FF6006CEBE7 /* Life_BalanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_BalanceUITests.swift; sourceTree = "<group>"; };
+		ED4033A420676FF7006CEBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4033B020678767006CEBE7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDD3A675205D8EA80035383D /* Frameworks */ = {
+		ED40337920676FBA006CEBE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDD3A68C205D8EA90035383D /* Frameworks */ = {
+		ED40339020676FF0006CEBE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDD3A697205D8EA90035383D /* Frameworks */ = {
+		ED40339B20676FF4006CEBE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,55 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDD3A66F205D8EA80035383D = {
+		ED40337320676FA2006CEBE7 = {
 			isa = PBXGroup;
 			children = (
-				EDDE5F86205E843C00DCE7D6 /* LifeParts.swift */,
-				EDD3A67A205D8EA80035383D /* Life Balance */,
-				EDD3A692205D8EA90035383D /* Life BalanceTests */,
-				EDD3A69D205D8EA90035383D /* Life BalanceUITests */,
-				EDD3A679205D8EA80035383D /* Products */,
+				ED40337E20676FBF006CEBE7 /* Life Balance */,
+				ED40339620676FF0006CEBE7 /* Life BalanceTests */,
+				ED4033A120676FF4006CEBE7 /* Life BalanceUITests */,
+				ED40337D20676FBD006CEBE7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDD3A679205D8EA80035383D /* Products */ = {
+		ED40337D20676FBD006CEBE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDD3A678205D8EA80035383D /* Life Balance.app */,
-				EDD3A68F205D8EA90035383D /* Life BalanceTests.xctest */,
-				EDD3A69A205D8EA90035383D /* Life BalanceUITests.xctest */,
+				ED40337C20676FBD006CEBE7 /* Life Balance.app */,
+				ED40339320676FF0006CEBE7 /* Life BalanceTests.xctest */,
+				ED40339E20676FF4006CEBE7 /* Life BalanceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDD3A67A205D8EA80035383D /* Life Balance */ = {
+		ED40337E20676FBF006CEBE7 /* Life Balance */ = {
 			isa = PBXGroup;
 			children = (
-				EDD3A67B205D8EA90035383D /* AppDelegate.swift */,
-				EDD3A67D205D8EA90035383D /* ViewController.swift */,
-				EDD3A67F205D8EA90035383D /* Main.storyboard */,
-				EDD3A685205D8EA90035383D /* Assets.xcassets */,
-				EDD3A687205D8EA90035383D /* LaunchScreen.storyboard */,
-				EDD3A68A205D8EA90035383D /* Info.plist */,
-				EDD3A682205D8EA90035383D /* Life_Balance.xcdatamodeld */,
+				ED40337F20676FC4006CEBE7 /* AppDelegate.swift */,
+				ED40338120676FC4006CEBE7 /* ViewController.swift */,
+				ED40338320676FC6006CEBE7 /* Main.storyboard */,
+				ED4033B020678767006CEBE7 /* TableViewController.swift */,
+				ED40338920676FE4006CEBE7 /* Assets.xcassets */,
+				ED40338B20676FE7006CEBE7 /* LaunchScreen.storyboard */,
+				ED40338E20676FEC006CEBE7 /* Info.plist */,
+				ED40338620676FD7006CEBE7 /* Life_Balance.xcdatamodeld */,
 			);
 			path = "Life Balance";
 			sourceTree = "<group>";
 		};
-		EDD3A692205D8EA90035383D /* Life BalanceTests */ = {
+		ED40339620676FF0006CEBE7 /* Life BalanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				EDD3A693205D8EA90035383D /* Life_BalanceTests.swift */,
-				EDD3A695205D8EA90035383D /* Info.plist */,
+				ED40339720676FF2006CEBE7 /* Life_BalanceTests.swift */,
+				ED40339920676FF4006CEBE7 /* Info.plist */,
 			);
 			path = "Life BalanceTests";
 			sourceTree = "<group>";
 		};
-		EDD3A69D205D8EA90035383D /* Life BalanceUITests */ = {
+		ED4033A120676FF4006CEBE7 /* Life BalanceUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EDD3A69E205D8EA90035383D /* Life_BalanceUITests.swift */,
-				EDD3A6A0205D8EA90035383D /* Info.plist */,
+				ED4033A220676FF6006CEBE7 /* Life_BalanceUITests.swift */,
+				ED4033A420676FF7006CEBE7 /* Info.plist */,
 			);
 			path = "Life BalanceUITests";
 			sourceTree = "<group>";
@@ -134,13 +134,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDD3A677205D8EA80035383D /* Life Balance */ = {
+		ED40337B20676FBA006CEBE7 /* Life Balance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDD3A6A3205D8EA90035383D /* Build configuration list for PBXNativeTarget "Life Balance" */;
+			buildConfigurationList = ED4033A720676FF9006CEBE7 /* Build configuration list for PBXNativeTarget "Life Balance" */;
 			buildPhases = (
-				EDD3A674205D8EA80035383D /* Sources */,
-				EDD3A675205D8EA80035383D /* Frameworks */,
-				EDD3A676205D8EA80035383D /* Resources */,
+				ED40337820676FBA006CEBE7 /* Sources */,
+				ED40337920676FBA006CEBE7 /* Frameworks */,
+				ED40337A20676FBA006CEBE7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,72 +148,72 @@
 			);
 			name = "Life Balance";
 			productName = "Life Balance";
-			productReference = EDD3A678205D8EA80035383D /* Life Balance.app */;
+			productReference = ED40337C20676FBD006CEBE7 /* Life Balance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EDD3A68E205D8EA90035383D /* Life BalanceTests */ = {
+		ED40339220676FF0006CEBE7 /* Life BalanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDD3A6A6205D8EA90035383D /* Build configuration list for PBXNativeTarget "Life BalanceTests" */;
+			buildConfigurationList = ED4033AA20676FF9006CEBE7 /* Build configuration list for PBXNativeTarget "Life BalanceTests" */;
 			buildPhases = (
-				EDD3A68B205D8EA90035383D /* Sources */,
-				EDD3A68C205D8EA90035383D /* Frameworks */,
-				EDD3A68D205D8EA90035383D /* Resources */,
+				ED40338F20676FF0006CEBE7 /* Sources */,
+				ED40339020676FF0006CEBE7 /* Frameworks */,
+				ED40339120676FF0006CEBE7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDD3A691205D8EA90035383D /* PBXTargetDependency */,
+				ED40339520676FF0006CEBE7 /* PBXTargetDependency */,
 			);
 			name = "Life BalanceTests";
 			productName = "Life BalanceTests";
-			productReference = EDD3A68F205D8EA90035383D /* Life BalanceTests.xctest */;
+			productReference = ED40339320676FF0006CEBE7 /* Life BalanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EDD3A699205D8EA90035383D /* Life BalanceUITests */ = {
+		ED40339D20676FF4006CEBE7 /* Life BalanceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDD3A6A9205D8EA90035383D /* Build configuration list for PBXNativeTarget "Life BalanceUITests" */;
+			buildConfigurationList = ED4033AD20676FF9006CEBE7 /* Build configuration list for PBXNativeTarget "Life BalanceUITests" */;
 			buildPhases = (
-				EDD3A696205D8EA90035383D /* Sources */,
-				EDD3A697205D8EA90035383D /* Frameworks */,
-				EDD3A698205D8EA90035383D /* Resources */,
+				ED40339A20676FF4006CEBE7 /* Sources */,
+				ED40339B20676FF4006CEBE7 /* Frameworks */,
+				ED40339C20676FF4006CEBE7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDD3A69C205D8EA90035383D /* PBXTargetDependency */,
+				ED4033A020676FF4006CEBE7 /* PBXTargetDependency */,
 			);
 			name = "Life BalanceUITests";
 			productName = "Life BalanceUITests";
-			productReference = EDD3A69A205D8EA90035383D /* Life BalanceUITests.xctest */;
+			productReference = ED40339E20676FF4006CEBE7 /* Life BalanceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDD3A670205D8EA80035383D /* Project object */ = {
+		ED40337420676FA3006CEBE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = organsation;
 				TargetAttributes = {
-					EDD3A677205D8EA80035383D = {
+					ED40337B20676FBA006CEBE7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					EDD3A68E205D8EA90035383D = {
+					ED40339220676FF0006CEBE7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = EDD3A677205D8EA80035383D;
+						TestTargetID = ED40337B20676FBA006CEBE7;
 					};
-					EDD3A699205D8EA90035383D = {
+					ED40339D20676FF4006CEBE7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = EDD3A677205D8EA80035383D;
+						TestTargetID = ED40337B20676FBA006CEBE7;
 					};
 				};
 			};
-			buildConfigurationList = EDD3A673205D8EA80035383D /* Build configuration list for PBXProject "Life Balance" */;
+			buildConfigurationList = ED40337720676FA6006CEBE7 /* Build configuration list for PBXProject "Life Balance" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,37 +221,37 @@
 				en,
 				Base,
 			);
-			mainGroup = EDD3A66F205D8EA80035383D;
-			productRefGroup = EDD3A679205D8EA80035383D /* Products */;
+			mainGroup = ED40337320676FA2006CEBE7;
+			productRefGroup = ED40337D20676FBD006CEBE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDD3A677205D8EA80035383D /* Life Balance */,
-				EDD3A68E205D8EA90035383D /* Life BalanceTests */,
-				EDD3A699205D8EA90035383D /* Life BalanceUITests */,
+				ED40337B20676FBA006CEBE7 /* Life Balance */,
+				ED40339220676FF0006CEBE7 /* Life BalanceTests */,
+				ED40339D20676FF4006CEBE7 /* Life BalanceUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EDD3A676205D8EA80035383D /* Resources */ = {
+		ED40337A20676FBA006CEBE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD3A689205D8EA90035383D /* LaunchScreen.storyboard in Resources */,
-				EDD3A686205D8EA90035383D /* Assets.xcassets in Resources */,
-				EDD3A681205D8EA90035383D /* Main.storyboard in Resources */,
+				ED40338D20676FE7006CEBE7 /* LaunchScreen.storyboard in Resources */,
+				ED40338A20676FE5006CEBE7 /* Assets.xcassets in Resources */,
+				ED40338520676FC6006CEBE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDD3A68D205D8EA90035383D /* Resources */ = {
+		ED40339120676FF0006CEBE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDD3A698205D8EA90035383D /* Resources */ = {
+		ED40339C20676FF4006CEBE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,61 +261,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDD3A674205D8EA80035383D /* Sources */ = {
+		ED40337820676FBA006CEBE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDDE5F87205E843C00DCE7D6 /* LifeParts.swift in Sources */,
-				EDD3A684205D8EA90035383D /* Life_Balance.xcdatamodeld in Sources */,
-				EDD3A67E205D8EA90035383D /* ViewController.swift in Sources */,
-				EDD3A67C205D8EA90035383D /* AppDelegate.swift in Sources */,
+				ED40338820676FE0006CEBE7 /* Life_Balance.xcdatamodeld in Sources */,
+				ED40338220676FC5006CEBE7 /* ViewController.swift in Sources */,
+				ED40338020676FC4006CEBE7 /* AppDelegate.swift in Sources */,
+				ED4033B120678767006CEBE7 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDD3A68B205D8EA90035383D /* Sources */ = {
+		ED40338F20676FF0006CEBE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD3A694205D8EA90035383D /* Life_BalanceTests.swift in Sources */,
+				ED40339820676FF2006CEBE7 /* Life_BalanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDD3A696205D8EA90035383D /* Sources */ = {
+		ED40339A20676FF4006CEBE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD3A69F205D8EA90035383D /* Life_BalanceUITests.swift in Sources */,
+				ED4033A320676FF6006CEBE7 /* Life_BalanceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EDD3A691205D8EA90035383D /* PBXTargetDependency */ = {
+		ED40339520676FF0006CEBE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDD3A677205D8EA80035383D /* Life Balance */;
-			targetProxy = EDD3A690205D8EA90035383D /* PBXContainerItemProxy */;
+			target = ED40337B20676FBA006CEBE7 /* Life Balance */;
+			targetProxy = ED40339420676FF0006CEBE7 /* PBXContainerItemProxy */;
 		};
-		EDD3A69C205D8EA90035383D /* PBXTargetDependency */ = {
+		ED4033A020676FF4006CEBE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDD3A677205D8EA80035383D /* Life Balance */;
-			targetProxy = EDD3A69B205D8EA90035383D /* PBXContainerItemProxy */;
+			target = ED40337B20676FBA006CEBE7 /* Life Balance */;
+			targetProxy = ED40339F20676FF4006CEBE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EDD3A67F205D8EA90035383D /* Main.storyboard */ = {
+		ED40338320676FC6006CEBE7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EDD3A680205D8EA90035383D /* Base */,
+				ED40338420676FC6006CEBE7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EDD3A687205D8EA90035383D /* LaunchScreen.storyboard */ = {
+		ED40338B20676FE7006CEBE7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EDD3A688205D8EA90035383D /* Base */,
+				ED40338C20676FE7006CEBE7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -323,7 +323,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EDD3A6A1205D8EA90035383D /* Debug */ = {
+		ED4033A520676FF8006CEBE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		EDD3A6A2205D8EA90035383D /* Release */ = {
+		ED4033A620676FF8006CEBE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +430,7 @@
 			};
 			name = Release;
 		};
-		EDD3A6A4205D8EA90035383D /* Debug */ = {
+		ED4033A820676FF9006CEBE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,7 +444,7 @@
 			};
 			name = Debug;
 		};
-		EDD3A6A5205D8EA90035383D /* Release */ = {
+		ED4033A920676FF9006CEBE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -458,7 +458,7 @@
 			};
 			name = Release;
 		};
-		EDD3A6A7205D8EA90035383D /* Debug */ = {
+		ED4033AB20676FF9006CEBE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -474,7 +474,7 @@
 			};
 			name = Debug;
 		};
-		EDD3A6A8205D8EA90035383D /* Release */ = {
+		ED4033AC20676FF9006CEBE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -490,7 +490,7 @@
 			};
 			name = Release;
 		};
-		EDD3A6AA205D8EA90035383D /* Debug */ = {
+		ED4033AE20676FF9006CEBE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -505,7 +505,7 @@
 			};
 			name = Debug;
 		};
-		EDD3A6AB205D8EA90035383D /* Release */ = {
+		ED4033AF20676FF9006CEBE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -523,38 +523,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDD3A673205D8EA80035383D /* Build configuration list for PBXProject "Life Balance" */ = {
+		ED40337720676FA6006CEBE7 /* Build configuration list for PBXProject "Life Balance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDD3A6A1205D8EA90035383D /* Debug */,
-				EDD3A6A2205D8EA90035383D /* Release */,
+				ED4033A520676FF8006CEBE7 /* Debug */,
+				ED4033A620676FF8006CEBE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDD3A6A3205D8EA90035383D /* Build configuration list for PBXNativeTarget "Life Balance" */ = {
+		ED4033A720676FF9006CEBE7 /* Build configuration list for PBXNativeTarget "Life Balance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDD3A6A4205D8EA90035383D /* Debug */,
-				EDD3A6A5205D8EA90035383D /* Release */,
+				ED4033A820676FF9006CEBE7 /* Debug */,
+				ED4033A920676FF9006CEBE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDD3A6A6205D8EA90035383D /* Build configuration list for PBXNativeTarget "Life BalanceTests" */ = {
+		ED4033AA20676FF9006CEBE7 /* Build configuration list for PBXNativeTarget "Life BalanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDD3A6A7205D8EA90035383D /* Debug */,
-				EDD3A6A8205D8EA90035383D /* Release */,
+				ED4033AB20676FF9006CEBE7 /* Debug */,
+				ED4033AC20676FF9006CEBE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDD3A6A9205D8EA90035383D /* Build configuration list for PBXNativeTarget "Life BalanceUITests" */ = {
+		ED4033AD20676FF9006CEBE7 /* Build configuration list for PBXNativeTarget "Life BalanceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDD3A6AA205D8EA90035383D /* Debug */,
-				EDD3A6AB205D8EA90035383D /* Release */,
+				ED4033AE20676FF9006CEBE7 /* Debug */,
+				ED4033AF20676FF9006CEBE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -562,17 +562,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EDD3A682205D8EA90035383D /* Life_Balance.xcdatamodeld */ = {
+		ED40338620676FD7006CEBE7 /* Life_Balance.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EDD3A683205D8EA90035383D /* Life_Balance.xcdatamodel */,
+				ED40338720676FD8006CEBE7 /* Life_Balance.xcdatamodel */,
 			);
-			currentVersion = EDD3A683205D8EA90035383D /* Life_Balance.xcdatamodel */;
+			currentVersion = ED40338720676FD8006CEBE7 /* Life_Balance.xcdatamodel */;
 			path = Life_Balance.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = EDD3A670205D8EA80035383D /* Project object */;
+	rootObject = ED40337420676FA3006CEBE7 /* Project object */;
 }
